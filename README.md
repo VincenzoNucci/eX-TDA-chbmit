@@ -10,7 +10,7 @@ Interpret a CNN trained on chbmit through TDA
 
 ## Wait, what does it mean to explore the behaviour of a CNN, and with TDA?
 Exploring the behaviour of a CNN means to produce explanations describing how a CNN classifies images.
-To whoever comes to this repository, I refer you to [Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019.](https://christophm.github.io/interpretable-ml-book/)
+I refer the reader to [Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019.](https://christophm.github.io/interpretable-ml-book/)
 
 Well, with TDA means producing explanations through Topological Data Analysis, in particular to apply a well defined pipeline based on Mapper.
 
