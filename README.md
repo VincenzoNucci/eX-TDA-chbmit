@@ -1,8 +1,6 @@
 # eX-TDA-chbmit
 Interpret a CNN trained on chbmit through TDA
 
-### Inspired by [previous work by Simone Morettini](https://github.com/SMorettini/CNNs-on-CHB-MIT)
-
 ## How does this thing work?
 1. Generate spectrogram images from chbmit
 2. Train a CNN on those spectrogram images
@@ -26,4 +24,10 @@ The reason behind this is that TDA is able to infer global qualitative propertie
 If TDA is better than other methods is an open question. The first step is to find the link between the behaviour of a machine learning model and its topological features. Once we have a clear understanding of this we will able to answer the question.
 
 ## Ok, but I still don't get it. Can I consider the obtained results trustworthy?
-TODO...
+TODO... (I don't know either :sweat_smile:)
+
+# About the model
+The "model and train" part of this project is taken from [previous work by Simone Morettini](https://github.com/SMorettini/CNNs-on-CHB-MIT). However I created a more customizable fork. Still need to set external configuration json files tho. (Does someone wants to help?)
+
+# About the interpretation
+Activation Images, Heatmaps and many other magical tricks. Have a look at [Rathore, A., Chalapathi, N., Palande, S., & Wang, B. (2019). TopoAct: Visually Exploring the Shape of Activations in Deep Learning. arXiv: Computational Geometry.](https://arxiv.org/pdf/1912.06332.pdf)
